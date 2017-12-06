@@ -13,3 +13,7 @@ $body-bg: $off-white;
   padding: 10px;
   text-align: center;
 }
+
+.col-6 {
+  text-align: left;
+}
