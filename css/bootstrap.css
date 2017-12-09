@@ -449,6 +449,7 @@ h2, .h2 {
 
 h3, .h3 {
   font-size: 1.75rem;
+  padding-bottom, padding-top: 20px;
 }
 
 h4, .h4 {
@@ -484,6 +485,7 @@ h6, .h6 {
   font-size: 4.5rem;
   font-weight: 300;
   line-height: 1.2;
+  color: #ff6e21;
 }
 
 .display-4 {
@@ -765,16 +767,21 @@ pre code {
 .col-10 {
   flex: 0 0 83.333333%;
   max-width: 83.333333%;
+  padding-left: 210px;
+  padding-top: 100px;
 }
 
 .col-11 {
   flex: 0 0 91.666667%;
   max-width: 91.666667%;
+  padding-left: 100px;
+  padding-top: 35px;
 }
 
 .col-12 {
   flex: 0 0 100%;
   max-width: 100%;
+  padding-bottom: 35px;
 }
 
 .order-first {
@@ -7898,7 +7905,8 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important;
 }
-/* MY CSS */
+
+/* FULLY MY CSS */
 
 p {
     margin-top: 0;
@@ -7906,4 +7914,16 @@ p {
     padding-top: 10px;
 }
 
+.behindTheName {
+    width: 100%;
+    text-align: center;
+    padding-top: 85px;
+    color: #ff6e21;
+}
+
+.about {
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+}
 /*# sourceMappingURL=bootstrap.css.map *
